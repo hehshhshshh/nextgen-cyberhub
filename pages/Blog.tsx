@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Calendar, User, ArrowRight, BookOpen } from 'lucide-react';
-import { BlogPost } from '../types';
+import { BlogPost } from '../types.ts';
 
 const Blog: React.FC = () => {
   const posts: BlogPost[] = [

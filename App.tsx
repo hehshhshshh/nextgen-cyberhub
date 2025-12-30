@@ -22,11 +22,11 @@ import {
   Contact as ContactIcon,
   BookOpen
 } from 'lucide-react';
-import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Contact from './pages/Contact';
-import Blog from './pages/Blog';
+import Home from './pages/Home.tsx';
+import About from './pages/About.tsx';
+import Services from './pages/Services.tsx';
+import Contact from './pages/Contact.tsx';
+import Blog from './pages/Blog.tsx';
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
